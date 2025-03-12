@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- FONTS -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+	<!-- bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<title>School of Saint Francis | Quezon City, Philippines</title>
+</head>
+<body>
+<!-- navbar -->
+	<section id="navbar">
+	  <nav class="navbar navbar-expand-lg fixed-top">
+	    <div class="container-fluid">
+	      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+	        <ul class="navbar-nav justify-content-center">
+	          <li class="nav-item">
+	            <a class="nav-link active" aria-current="page" href="#">Home</a>
+	          </li>
+	          <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	              Category
+	            </a>
+	            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	              <li><a class="dropdown-item" href="#categories-section">Listings</a></li>
+	              <li><a class="dropdown-item" href="#resources">Sample resources</a></li>
+	            </ul>
+	          </li>
+	          <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	              About
+	            </a>
+	            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	              <li><a class="dropdown-item" href="#mission">Mission</a></li>
+	              <li><a class="dropdown-item" href="#contact">Contact Info</a></li>
+	            </ul>
+	          </li>
+	        </ul>
+	        <!-- Search Bar Positioned to the Right -->
+	        <div>
+	          <form class="d-flex">
+	            <input class="form-control me-md-2" type="search" placeholder="Search.." aria-label="Search">
+	          </form>
+	        </div>
+	      </div>
+	    </div>
+	  </nav>
+	</section>
+
+	<section id="home" class="carousel slide" data-bs-ride="carousel">
+		 <div class="carousel-overlay">
+   		 <h1 id="banner-name">School of Saint Francis</h1>
+ 		 </div>
+	    <div class="carousel-indicators">
+	      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	    </div>
+	    <div class="carousel-inner">
+	      <div class="carousel-item active">
+	        <img src="https://resources.finalsite.net/images/v1694197809/detroit/xiffcpoptdhde5qiz1b9/Scholar-Athlete-Dinner.jpg" class="d-block w-100" alt="Carousel Image">
+
+	        <div class="container">
+	          <div class="carousel-caption">
+	            <h1 class=" fw-bold">Academic Excellence</h1>
+	            <p><a class="btn btn-lg btn-success" id="submit-button" href="#">Sign up today</a></p>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="carousel-item">
+	        <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1697739577/detroit/eteij0jk91s1esawoy72/LS-1.jpg" class="d-block w-100" alt="Carousel Image">
+
+	        <div class="container">
+	          <div class="carousel-caption">
+	            <h1 class=" fw-bold">Values Development</h1>
+	           	<p><a class="btn btn-lg btn-success" id="submit-button" href="#">Learn more</a></p>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="carousel-item">
+	        <img src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1687957665/detroit/rljdl9djemovttdc2vdv/USMSphotos-5.jpg" class="d-block w-100" alt="Carousel Image">
+
+	        <div class="container">
+	          <div class="carousel-caption">
+	            <h1 class=" fw-bold">World Class Education</h1>
+	            <p><a class="btn btn-lg btn-success" id="submit-button" href="#">Browse gallery</a></p>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+	      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	      <span class="visually-hidden">Previous</span>
+	    </button>
+	    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+	      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	      <span class="visually-hidden">Next</span>
+	    </button>
+	  </div>
+	</section>
+
+	<section class="px-5" id="introduction">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">At School of Saint Francis,</h1>
+      <p class="col-md-8 fs-4">We are dedicated to nurturing academic excellence, character formation, and holistic development. Rooted in strong values and a commitment to quality education, our institution fosters a dynamic learning environment where students are encouraged to grow intellectually, socially, and spiritually.</p>
+      <button class="btn btn-primary btn-lg" type="button" id="submit-button">Inquire now</button>
+    </div>
+	</section>
+
+	<section id="featured">
+    <div class="row align-items-md-stretch m-0">
+      <div class="col-md-6 p-0">
+        <div class="h-100 p-5" id="featured1">
+          <h2 class=" fw-bold">Dedicated Curriculum</h2>
+          <p>With a focus on world-class education, values-driven learning, and innovative teaching methods, we aim to empower students with the knowledge, skills, and integrity needed to succeed in an ever-changing world. Our dedicated faculty, state-of-the-art facilities, and supportive community create an inspiring space where every learner thrives.</p>
+          <button class="btn btn-outline-light" type="button">Learn more</button>
+        </div>
+      </div>
+      <div class="col-md-6 p-0">
+        <div class="h-100 p-5" id="featured2">
+          <h2 class=" fw-bold">Enhanced Facilities</h2>
+          <p>Join us at the School of Saint Francis, where tradition meets innovation, and every student is guided to achieve their fullest potential.</p>
+          <button class="btn btn-outline-light" type="button">Schedule a tour</button>
+        </div>
+      </div>
+    </div>
+	</section>
+
+	<section id="categories-section">
+	  <div class="container-fluid py-5 text-center">
+	    <h1 class="display-5 fw-bold">Academic Excellence meets Fortitude</h1>
+	    <p class="col-md-auto mx-auto px-5 fs-4">
+	      At the School of Saint Francis, we cultivate a learning environment that blends academic excellence with strong character development. Our institution is committed to fostering intellectual curiosity, moral integrity, and personal growth. With a curriculum rooted in innovation and tradition, we empower students to become lifelong learners and responsible leaders in an ever-evolving world.
+	    </p>
+	  </div>
+
+
+
+	  <div class="container" id="categories">
+	    <div class="row justify-content-center g-4">
+	      <div class="col-md-3 d-flex">
+	        <div class="card flex-fill">
+	          <img src="https://www.raddlebarn.co.uk/wp-content/uploads/2022/01/IMG_4014a.jpg" class="card-img-top" alt="Early Childhood Education">
+	          <div class="card-body text-center">
+	            <h5 class="card-text fw-bold">Early Childhood Education</h5>
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="col-md-3 d-flex">
+	        <div class="card flex-fill">
+	          <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1697740138/detroit/ks1wtryavfk3tdmm1pht/LS-4.jpg" class="card-img-top" alt="Primary Education">
+	          <div class="card-body text-center">
+	            <h5 class="card-text fw-bold">Primary Education</h5>
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="col-md-3 d-flex">
+	        <div class="card flex-fill">
+	          <img src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1687956452/detroit/covffildltcy7t089n2s/MSphotos-8_1.jpg" class="card-img-top" alt="Junior High School">
+	          <div class="card-body text-center">
+	            <h5 class="card-text fw-bold">Junior High School</h5>
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="col-md-3 d-flex">
+	        <div class="card flex-fill">
+	          <img src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1687957647/detroit/quwmjlmdttsthqvet4wc/USMSphotos-2.jpg" class="card-img-top" alt="Senior High School">
+	          <div class="card-body text-center">
+	            <h5 class="card-text fw-bold">Senior High School</h5>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+
+
+		<div class="accordion px-5 my-5" id="resources">
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="headingOne">
+			      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			        Academic Resources:
+			      </button>
+			    </h2>
+			    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+			      <div class="accordion-body">
+			        <p>Digital Library Access – A vast collection of e-books, journals, and research databases.</p>
+			        <p>STEM Laboratories – Fully equipped science and technology labs for hands-on learning.</p>
+			        <p>Writing & Research Center – A dedicated space for academic writing support and research guidance.</p>
+			        <p>E-Learning Platform – Online modules, recorded lectures, and interactive assessments.</p>
+			      </div>
+			    </div>
+			  </div>
+			  
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="headingTwo">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			        Student Support Services:
+			      </button>
+			    </h2>
+			    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+			      <div class="accordion-body">
+			        <p>Guidance & Counseling – Personal and academic counseling to support student well-being.</p>
+			        <p>Career Development Office – Resume workshops, internship placements, and career counseling.</p>
+			      </div>
+			    </div>
+			  </div>
+			  
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="headingThree">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			        Extracurricular & Leadership Development:
+			      </button>
+			    </h2>
+			    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			      <div class="accordion-body">
+			        <p>Digital Library Access – A vast collection of e-books, journals, and research databases.</p>
+			        <p>STEM Laboratories – Fully equipped science and technology labs for hands-on learning.</p>
+			        <p>Writing & Research Center – A dedicated space for academic writing support and research guidance.</p>
+			        <p>E-Learning Platform – Online modules, recorded lectures, and interactive assessments.</p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="mission">
+		<div class="container">
+			<div class="d-flex row">
+				<h1>Mission Statement</h1>
+				<p>At School of Saint Francis, our mission is to cultivate a dynamic learning environment that nurtures academic excellence, character formation, and holistic development. Rooted in strong values and a commitment to quality education, we empower students to become critical thinkers, compassionate leaders, and responsible global citizens. Through innovative teaching, inclusive community engagement, and a dedication to lifelong learning, we inspire our students to reach their full potential—intellectually, socially, and ethically.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-md py-md-70" id="contact">
+		<div class="row">
+		    <!-- <div class="col-md-4"><img class="d-flex mx-auto h-auto w-auto py-5 align-items-center" src="images/blueshadow.jpg" alt="Contact us"></div> -->
+		    <div class="col-md-12 p-md-auto m-md-auto mt-6">
+		        <h1 class="contact-title pt-md-0 text-dark text-center fw-bold">CONTACT US</h1>
+		        <form id="contact-form">
+		            <div class="form-group my-md-4 text-secondary">
+		                <label for="name">Name</label><input type="text" class="form-control" id="name" name="name" value="Maria Danica
+		                ">
+		            </div>
+		            <div class="form-group my-md-3 text-secondary">
+		                <label for="email">Email Address</label><input type="email" class="form-control" id="email" name="email" value="danicaesparrago@mail.com">
+		            </div>
+		            <div class="form-group my-md-3 text-secondary">
+		                <label for="message">message</label><textarea class="form-control message-area" name="message" id="message"></textarea>
+		            </div>
+		            <div class="form-group d-flex justify-content-end my-md-3">
+		                <input id="submit-button" type="submit">
+		            </div>
+		        </form>
+		    </div>
+		</div>
+	</section>
+
+
+
+	<footer class="text-center p-md-3 mt-md-4">
+	    <p class="footer-text text-dark">2025 | All rights reserved</p>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+</body>
+</html>
